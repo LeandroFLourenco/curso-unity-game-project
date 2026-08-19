@@ -3,11 +3,16 @@ using UnityEngine;
 
 public class variaveis : MonoBehaviour
 {
-    int estados = 1;
-    
+    //int estados = 1;
+
+    //string[] inimigos;
+
 
     void Start()
     {
+
+        ////IF e SWITCH CASE
+
         //if (estados == 1)
         //{
         //    print("Mate o heroi!");
@@ -41,10 +46,28 @@ public class variaveis : MonoBehaviour
         //            break;
         //    }
 
-        for (int x = 0 ; (x > 0 && x <= 10); x++)
-        {
-            print("Hello World!" + " " + "-" + " " + x);
-        }
+
+        ////FOR
+
+        //for (int x = 0 ; (x > 0 && x <= 10); x++)
+        //{
+        //    print("Hello World!" + " " + "-" + " " + x);
+        //}
+
+
+        ////FOREACH
+
+        //inimigos = new string[4];
+        //inimigos[0] = "caveira";
+        //inimigos[1] = "matador";
+        //inimigos[2] = "atirador";
+        //inimigos[3] = "mark";
+
+        //foreach (string nome in inimigos)
+        //{
+        //    print(nome);
+        //}
+
     }
 
     void Update()
